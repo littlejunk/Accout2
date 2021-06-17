@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/costmenu1"
+        android:orderInCategory="100"
+        android:title="其他"/>
+    <item
+        android:id="@+id/costmenu2"
+        android:orderInCategory="100"
+        android:title="零食饮料"/>
+    <item
+        android:id="@+id/costmenu3"
+        android:orderInCategory="100"
+        android:title="学校饮食"/>
+    <item
+        android:id="@+id/costmenu4"
+        android:orderInCategory="100"
+        android:title="外出娱乐"/>
+    <item
+        android:id="@+id/costmenu5"
+        android:orderInCategory="100"
+        android:title="学习用品"/>
+
+
+</menu>

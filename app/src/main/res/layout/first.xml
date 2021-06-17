@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/first_textview_1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/btn_1"
+        android:textSize="15sp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:textColor="#FF69B4"
+        android:text="取之有度，用之有节！希望我们的每一分钱都可以用在对的地方。"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@id/first_textview_1"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/btn_2"/>
+    <TextView
+        android:id="@+id/first_textview_2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/getp1"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="200dp"
+        android:layout_below="@+id/first_textview_1"
+        android:text="55555555"
+        android:paddingTop="14dp"
+        android:paddingLeft="90dp"
+        />
+    <TextView
+        android:id="@+id/first_textview_3"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@+id/first_textview_2"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="200dp"
+        android:background="@drawable/outp1"
+        android:paddingTop="7dp"
+        android:paddingLeft="90dp"
+        android:text="55555555"
+        />
+    <TextView
+        android:id="@+id/first_textview_4"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/first_textview_1"
+        android:layout_marginLeft="210dp"
+        android:layout_marginRight="10dp"
+        android:text="本月剩余(1000)"
+        android:gravity="center"
+        android:background="#99FFCC"
+        />
+
+     <TextView
+         android:id="@+id/first_textview_5"
+         android:layout_width="match_parent"
+         android:layout_height="35dp"
+         android:layout_below="@+id/first_textview_4"
+         android:layout_marginLeft="210dp"
+         android:layout_marginRight="17dp"
+         android:textColor="#FF0000"
+         android:text="1000"
+         android:gravity="center"
+         android:textSize="24sp"
+         android:background="#99FFCC"
+         />
+
+
+</RelativeLayout>
